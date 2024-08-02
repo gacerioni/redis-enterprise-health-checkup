@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 LICENSE_BASE_URL = os.getenv('LICENSE_BASE_URL', 'https://prodam.redisdemo.com:9443/v1/license')
 METRICS_URL = os.getenv('METRICS_URL', 'https://prodam.redisdemo.com:8070/metrics')
 BDBS_URL = os.getenv('BDBS_URL', 'https://prodam.redisdemo.com:9443/v1/bdbs')
-AUTHORIZATION = os.getenv('AUTHORIZATION', 'Basic Z2FicmllbC5jZXJpb25pQHJlZGlzLmNvbTpTZWNyZXRANDI=')
+AUTHORIZATION = os.getenv('AUTHORIZATION', 'Basic <...>')
 
 
 def get_json_response(url):
